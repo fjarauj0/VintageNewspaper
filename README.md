@@ -12,3 +12,5 @@ Proyecto maquetación estilo periódico antiguo
 | **Recurso base**  | Búscar una imagen de periodico viejo en Pinterest |
 | **Entregable**  | Código en Github, maqueta desplegada en Github Pages, Readme |
 | **Habilidades a evaluar**  | Uso de HTML semántico, propiedades de CSS especialmente GRID y Flex  |
+
+[![Mockup](https://i.pinimg.com/564x/94/47/58/944758cf1bbc12e335f416336fe11344.jpg "Mockup")](https://i.pinimg.com/564x/94/47/58/944758cf1bbc12e335f416336fe11344.jpg "Mockup")

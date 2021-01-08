@@ -1,10 +1,10 @@
 @font-face {
   font-family: Faith;
-  src: url(/src/fonts/Faith\ Collapsing.ttf);
+  src: url(src/fonts/Faith\ Collapsing.ttf);
 }
 @font-face {
   font-family: OldText;
-  src: url(/src/fonts/OldNewspaperTypes.ttf);
+  src: url(src/fonts/OldNewspaperTypes.ttf);
 }
 h1 {
   margin: 10px;
@@ -50,7 +50,7 @@ p{
   margin: 15px 0;
   border-top: 7px solid;
   border-bottom: 7px solid;
-  border-image-source: url(/src/images/dborder.png);
+  border-image-source: url(src/images/dborder.png);
   border-image-slice: 10;
 }
 
@@ -76,7 +76,7 @@ p{
   font-weight: lighter;
   border-top: 10px solid;
   border-bottom: 10px solid;
-  border-image-source: url(/src/images/border.png);
+  border-image-source: url(src/images/border.png);
   border-image-slice: 10;
 
   padding: 2px;
@@ -97,13 +97,13 @@ p{
 
 .border {
   border: 10px solid;
-  border-image-source: url(/src/images/border.png);
+  border-image-source: url(src/images/border.png);
   border-image-slice: 10;
 }
 
 .dborder {
   border: 10px solid;
-  border-image-source: url(/src/images/dborder.png);
+  border-image-source: url(src/images/dborder.png);
   border-image-slice: 10;
 }
 
@@ -118,7 +118,7 @@ p{
 }
 
 .body--paperTexture {
-  background-image: url(/src/images/bgpaper3.jpg);
+  background-image: url(src/images/bgpaper3.jpg);
   color: #1f0d01;
 }
 

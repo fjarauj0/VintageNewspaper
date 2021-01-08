@@ -1,0 +1,153 @@
+@font-face {
+  font-family: Faith;
+  src: url(/src/fonts/Faith\ Collapsing.ttf);
+}
+@font-face {
+  font-family: OldText;
+  src: url(/src/fonts/OldNewspaperTypes.ttf);
+}
+h1 {
+  margin: 10px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: lighter;
+}
+h4 {
+  margin: 0;
+}
+body {
+  margin: 30px auto;
+  max-width: 1200px;
+}
+article {
+  font-family: "OldText", Helvetica, sans-serif;
+  margin: 0;
+}
+img {
+  box-sizing: border-box;
+  width: 100%;
+}
+p{
+  margin-top: 5px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+.title {
+  font-family: "Faith", Helvetica, sans-serif;
+}
+
+.header__date {
+  font-size: small;
+  font-family: "OldText", Helvetica, sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 30px;
+  margin: 15px 0;
+  border-top: 7px solid;
+  border-bottom: 7px solid;
+  border-image-source: url(/src/images/dborder.png);
+  border-image-slice: 10;
+}
+
+.article__title {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.article__comment {
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+  margin-bottom: 10px;
+}
+
+.article__place {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  border-top: 10px solid;
+  border-bottom: 10px solid;
+  border-image-source: url(/src/images/border.png);
+  border-image-slice: 10;
+
+  padding: 2px;
+  margin: 0px;
+}
+
+.article__text {
+  line-height: 1.2em;
+}
+
+.article__text:first-letter {
+  float: left;
+  font-size: 2.3em;
+  padding-right: 5px;
+  padding-left: 3px;
+  padding-top: 12px;
+}
+
+.border {
+  border: 10px solid;
+  border-image-source: url(/src/images/border.png);
+  border-image-slice: 10;
+}
+
+.dborder {
+  border: 10px solid;
+  border-image-source: url(/src/images/dborder.png);
+  border-image-slice: 10;
+}
+
+.highlight {
+  font-size: small;
+  font-style: italic;
+  font-family: "OldText", Helvetica, sans-serif;
+  text-align: center;
+  max-width: 300px;
+  padding: 10px;
+  height: fit-content;
+}
+
+.body--paperTexture {
+  background-image: url(/src/images/bgpaper3.jpg);
+  color: #1f0d01;
+}
+
+.news {
+  display: grid;
+  /* grid-template-columns: repeat(5, 1fr); */
+  justify-content: center;
+  gap: 20px;
+  text-align: justify;
+  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-rows: repeat(auto-fill, auto);
+}
+
+.col--2 {
+  grid-column-end: span 2;
+}
+
+.row--2 {
+  grid-row-end: span 2;
+}
+
+.row--3 {
+  grid-row-end: span 3;
+}
+
+.subgrid {
+  display: grid;
+  justify-content: center;
+  column-gap: 20px;
+  text-align: justify;
+  grid-template-columns: repeat(auto-fill, 200px);
+}

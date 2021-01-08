@@ -1,0 +1,31 @@
+@media only screen and (max-width: 1200px) {
+  body {
+    margin: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .header{
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
+  .title{
+    grid-row-start: 1;
+  }
+  .highlight {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .news {
+    grid-template-columns: 1fr;
+  }
+
+  .subgrid {
+    grid-template-columns: 1fr;
+  }
+
+  .col--2 {
+    grid-column-end: span 1;
+  }
